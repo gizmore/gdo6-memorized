@@ -19,7 +19,7 @@ final class Module_Memorized extends GDO_Module
     
     private function getSolution()
     {
-        $path = $this->filePath('password.php');
+        $path = $this->filePath('solution.php');
         return require($path);
     }
     
